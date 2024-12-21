@@ -1,0 +1,5 @@
+#var , const , let
+
+usar mais a let 
+
+const e uma constante nao pode ser alterada pos ser definida

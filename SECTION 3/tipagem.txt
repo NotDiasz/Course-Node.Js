@@ -1,0 +1,26 @@
+#Tipagem
+
+O que é tipagem?
+
+Em programação, a tipagem define como uma linguagem lida com os tipos de dados (como números, textos, booleanos, etc.). Ela determina como esses dados são armazenados, como podem ser manipulados e quais operações são permitidas sobre eles.
+
+Tipagem em JavaScript: Dinâmica e Fraca
+
+JavaScript é uma linguagem de tipagem dinâmica e fraca. Isso significa que:
+
+Dinâmica: O tipo de uma variável não é fixo e pode mudar durante a execução do programa. Você pode atribuir um número a uma variável e depois atribuir uma string a ela sem problemas.
+Fraca: O JavaScript realiza conversões de tipo implicitamente, o que pode levar a resultados inesperados em algumas situações. Por exemplo, ao somar um número com uma string, o JavaScript converte o número para uma string e concatena os valores.
+Exemplo:
+
+JavaScript
+
+let x = 10; // x é um número
+x = "Olá"; // Agora x é uma string
+Por que a tipagem dinâmica e fraca?
+
+Flexibilidade: Permite escrever código de forma mais concisa e rápida.
+Facilidade de aprendizado: A ausência de declarações de tipo torna a linguagem mais acessível para iniciantes.
+Quando a tipagem dinâmica pode ser um problema?
+
+Erros em tempo de execução: Conversões de tipo implícitas podem levar a resultados inesperados e difíceis de depurar.
+Dificuldade em escrever código grande e complexo: Sem tipagem estática, fica mais difícil garantir a correção do código e encontrar erros.
