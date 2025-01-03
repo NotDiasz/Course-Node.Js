@@ -1,0 +1,7 @@
+Estrutura de Repetiçao
+
+Permite que um trecho de codigo seja repetido varias vezes sendo em loop infinito ou nao
+
+For (Para de [de x a y] Faça) quando ja definimos o numero de repetiçoes
+
+Do While (Enquanto [verdade]Faça) : Quando nao conheçemos o numero de repetiçoes

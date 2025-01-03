@@ -1,0 +1,9 @@
+Valores Logicos True or False
+
+>
+<
+<>
+!=
+==
+>=
+<=

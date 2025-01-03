@@ -1,0 +1,7 @@
+if 
+else if
+else
+
+estrutura de condiçoes em js
+
+Switch Case
