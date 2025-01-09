@@ -1,0 +1,79 @@
+O que é JSON?
+JSON (JavaScript Object Notation) é um formato leve de troca de dados que é fácil de ler e escrever para humanos e fácil de interpretar e gerar para máquinas. Ele é amplamente utilizado para transferir dados entre um servidor e um cliente, especialmente em aplicações web.
+
+Estrutura do JSON
+O JSON é baseado em pares chave-valor, onde:
+
+Chave: Sempre uma string.
+Valor: Pode ser um dos seguintes tipos:
+String
+Número
+Booleano (true ou false)
+Array
+Objeto (outro conjunto de pares chave-valor)
+Null
+Exemplo:
+json
+Copiar código
+{
+  "nome": "Luis",
+  "idade": 25,
+  "habilidades": ["JavaScript", "Python", "C"],
+  "empregado": true,
+  "endereco": {
+    "cidade": "São Paulo",
+    "pais": "Brasil"
+  }
+}
+Características do JSON
+Sintaxe Simples
+Baseado em uma estrutura de objetos e arrays.
+
+Independente de Linguagem
+Apesar do nome, JSON não depende exclusivamente do JavaScript. Ele é suportado por quase todas as linguagens de programação modernas, como Python, Java, C#, PHP, entre outras.
+
+Formato de Texto
+Os dados JSON são armazenados e transmitidos como texto, o que facilita a leitura e edição.
+
+Usos Comuns do JSON
+APIs e Comunicação Cliente-Servidor
+
+JSON é amplamente usado como formato de resposta em APIs RESTful.
+Exemplo: Ao buscar dados de um servidor, a resposta frequentemente vem em JSON.
+json
+Copiar código
+{
+  "status": "success",
+  "data": {
+    "id": 1,
+    "produto": "Notebook",
+    "preco": 3500.00
+  }
+}
+Armazenamento de Dados
+JSON pode ser usado como um formato de banco de dados, como no MongoDB.
+
+Configurações
+Muitos sistemas usam JSON para arquivos de configuração.
+
+JSON no JavaScript
+O JavaScript possui métodos embutidos para trabalhar com JSON:
+
+JSON.stringify(obj)
+
+Converte um objeto JavaScript para uma string JSON.
+Exemplo:
+javascript
+Copiar código
+const obj = { nome: "Luis", idade: 25 };
+const jsonString = JSON.stringify(obj);
+console.log(jsonString); // '{"nome":"Luis","idade":25}'
+JSON.parse(jsonString)
+
+Converte uma string JSON de volta para um objeto JavaScript.
+Exemplo:
+javascript
+Copiar código
+const jsonString = '{"nome":"Luis","idade":25}';
+const obj = JSON.parse(jsonString);
+console.log(obj.nome); // 'Luis'
