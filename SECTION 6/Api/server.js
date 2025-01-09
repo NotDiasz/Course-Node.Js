@@ -25,7 +25,7 @@ http.createServer((request, response) => {
     }   
     // Se a requisição for do tipo GET
     else if (request.method === 'GET') {
-        response.write('Metodo GET Aplicado');  // Envia a resposta "Metodo GET Aplicado"
+        response.write('Metodo GET Aplicado' + Number(queryParams.num));  // Envia a resposta "Metodo GET Aplicado"
         response.end();  // Finaliza a resposta
     }
 

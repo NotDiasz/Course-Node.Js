@@ -1,0 +1,8 @@
+lib e um conjunto de bibliotecas pre criadas , library
+
+npm list = Para listar pacotes
+npm audit = verifica vulnerabilidades
+npm uninstall = desinstalar pacotes
+ 
+ npm install --save <name> Instala dependencias
+ npm instal -S <name> Versao dsala shortcurt save
