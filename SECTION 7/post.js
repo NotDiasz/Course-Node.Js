@@ -8,7 +8,10 @@ app.use(express.json()); //aqui chamamos o json
 app.post('/somar' , (req,res) => {
        
         const {num1 , num2} = req.body //aqui o body e o json nois buscamos no json que definimos no postman num1 e num2 para fazer a soma e la mesmo definimos os valores ai nosso server local 3000 puxa e nos mostra[´]
-        res.send('Soma = ' + Number(num1+num2))
+        res.status(201).send({
+            mensagem: `a soma e ${num1+num2}`
+
+        })
 } )
 
 app.listen(porta , () =>{
