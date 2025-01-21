@@ -8,7 +8,7 @@ function ApiSomar (req , res) {
         const result = soma(num1, num2)
         res.status(201).send({result: result})
     } catch (e) {
-        res.status(200).send({msg : e.message})
+        res.status(500).send({msg : e.message})
     }
 }
 

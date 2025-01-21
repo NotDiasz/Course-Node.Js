@@ -1,5 +1,18 @@
 {
   "dependencies": {
     "express": "^4.21.2"
-  }
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "name": "cursonodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "test": "jest test/"
+  },
+  "author": "DevDias",
+  "license": "ISC"
 }
