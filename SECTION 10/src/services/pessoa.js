@@ -9,15 +9,15 @@ class ServicePessoa {
     PegarUm(id){
         return repo.PegarUm(id);
     }
-    Adicionar(){
-        return repo.Adicionar();
+    Adicionar(nome){
+        return repo.Adicionar(nome);
     }
-    Alterar(){
-        return repo.Alterar();
+    Alterar(id, nome){
+        return repo.Alterar(id, nome);
     }
-    Deletar(){
-        return repo.Deletar();
+    Deletar(id){
+        return repo.Deletar(id);
     }
 }
 
-module.exports = ServicePessoa
+module.exports = ServicePessoa;
