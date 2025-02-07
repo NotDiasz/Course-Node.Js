@@ -25,7 +25,6 @@ describe("Primeiro teste de pessoa" , () => {
         const NomeAntes = service.PegarUm(index)
         service.Deletar(index);
         const NomeDepois = service.PegarUm(index) 
-        const nome = service.PegarUm(index)
 
         expect(NomeAntes).not.toBe(NomeDepois)
     })
